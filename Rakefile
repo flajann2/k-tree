@@ -2,6 +2,12 @@
 
 require 'rubygems'
 require 'bundler'
+require 'semver'
+
+def s_version
+  SemVer.find.format "%M.%m.%p%s"
+end
+
 begin
   Bundler.setup(:default, :development)
 rescue Bundler::BundlerError => e
@@ -17,11 +23,25 @@ Jeweler::Tasks.new do |gem|
   gem.name = "k-tree"
   gem.homepage = "http://github.com/flajann2/k-tree"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{K-Tree is a generalization of quadtrees and octrees.}
+  gem.description = %Q{
+  This is a data structure to represent and manage k-trees,
+  primarily created for use in RubyNEAT, but may see other possible applications.
+  The goal here is to be roebust in the creation of your k-tree, to allow
+  you to prune during creation, since, especially for higher-dimensional trees,
+  the number of leaf node can become very large.
+
+  So a parent will have children nodes created down to the desired resolution,
+  and immediately after the creation of the children, will check to see if there's
+  enough variance among the children to keep them. If not, they are pruned immediately.
+  }
   gem.email = "lordalveric@yahoo.com"
   gem.authors = ["Fred Mitchell"]
-  # dependencies defined in Gemfile
+  gem.required_ruby_version = '>= 2.0'
+  gem.version = s_version
+  gem.files.exclude 'foo/**/*', 'rdoc/*',
+                    '.idea/**/*', '.idea/**/.*', '.yardoc/**/*',
+                    'Guardfile'
 end
 Jeweler::RubygemsDotOrgTasks.new
 

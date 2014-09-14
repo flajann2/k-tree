@@ -1,6 +1,26 @@
-= k-tree
+= K-Tree
 
-Description goes here.
+K-Tree is a data structure that generalizes the notion of Quadtrees and
+Octrees. The nodes subdivides the n-dimentional space into equal subsections
+of 2^n k-tants (quadrants for 2-dimensional spaces, octants for 3-dimensional)
+down to your desired level of resolution, and during the creation allows you
+to decide whether or not to keep the child nodes based on your criteria
+for whether or not there's enough variance.
+
+The coordinats of the midpoint of all these sections are maintained by k-tree
+and are therefore enumerable.
+
+== Gem Version
+{<img src="https://badge.fury.io/rb/k-tree.png" alt="Gem Version" />}[http://badge.fury.io/rb/k-tree]
+
+== Usage
+
+== Examples
+
+== Known Issues
+Currently K-Tree does not support "nearest neighbor" queries, as this
+is beyond the scope of the current needs of the author. Check out kd-tree
+amd r-tree for that. Or feel free to add that functionality and do a pull request.
 
 == Contributing to k-tree
  
