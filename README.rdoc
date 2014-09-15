@@ -17,6 +17,33 @@ and are therefore enumerable.
 
 == Examples
 
+For now, I will use the spec as example of usage. This is lame, I'll admit,
+but I will improve this shortly.
+
+  require 'k-tree'
+  include KTree
+
+  let(:ktree) do
+    KTree.create do |node, vchildren|
+      rand(3) != 5
+    end
+  end
+
+  it "created a tree" do
+    expect(ktree).to_not be_nil
+  end
+
+  it "has nodes" do
+    expect(ktree.root).to_not be_nil
+  end
+
+  it "upper and lower coords are never equal" do
+    ktree.each do |node|
+      expect(node.upper).to_not eq node.lower
+    end
+  end
+
+
 == Known Issues
 Currently K-Tree does not support "nearest neighbor" queries, as this
 is beyond the scope of the current needs of the author. Check out kd-tree

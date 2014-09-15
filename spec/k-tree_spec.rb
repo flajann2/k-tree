@@ -5,8 +5,9 @@ describe KTree do
   include KTree
 
   let(:ktree) do
-    KTree.create do |node, vchildren|
-      rand(3) != 55
+    KTree.create(depth: 6) do |node, vchildren|
+      node.refob = rand(4)
+      node.refob != 0
     end
   end
 
@@ -21,6 +22,12 @@ describe KTree do
   it "upper and lower coords are never equal" do
     ktree.each do |node|
       expect(node.upper).to_not eq node.lower
+    end
+  end
+
+  it "refob should be set to something" do
+    ktree.each do |node|
+      expect(node.refob).to_not be_nil
     end
   end
 end

@@ -9,7 +9,7 @@ module KTree
   class KTreeException < Exception
   end
 
-  def self.create(vupper = Vector[1.0, 1.0], vlower = Vector[-1.0, -1.0], depth=5, &block)
+  def self.create(vupper = Vector[1.0, 1.0], vlower = Vector[-1.0, -1.0], depth: 5, &block)
     KTree.new(vupper , vlower, depth, &block)
   end
 
@@ -53,9 +53,11 @@ module KTree
       # recursive function to create child nodes.
       def create_children(&block)
         if block.(self, cv = ntants)
-          @children = cv.map{|vupper, vlower| Node.new(vupper, vlower, @depth - 1)}
-          @children.each{|child| child.create_children &block}
-        end unless @depth == 0
+          unless @depth == 0
+            @children = cv.map{|vupper, vlower| Node.new(vupper, vlower, @depth - 1)}
+            @children.each{|child| child.create_children &block}
+          end
+        end
       end
 
       def each(&block)
