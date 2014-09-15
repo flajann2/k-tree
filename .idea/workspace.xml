@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd72fadc-74a5-4413-be21-0be9768d0262" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/k-tree.rb" afterPath="$PROJECT_DIR$/lib/k-tree.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/k-tree/k-tree.rb" afterPath="$PROJECT_DIR$/lib/k-tree/k-tree.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../queue_ding/.idea/queue_ding.iml" afterPath="$PROJECT_DIR$/../queue_ding/.idea/queue_ding.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../queue_ding/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../queue_ding/.idea/workspace.xml" />
     </list>
@@ -52,21 +49,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="k-tree.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="k-tree.rb" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/lib/k-tree/k-tree.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-                  <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.20594966" vertical-offset="0" max-vertical-offset="874">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.rdoc">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.3554007" vertical-offset="0" max-vertical-offset="861">
-                  <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+                  <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
                   <folding />
                 </state>
               </provider>
@@ -76,41 +73,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="queue_ding.rb" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../queue_ding/lib/queue_ding.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-                  <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.rdoc" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../queue_ding/README.rdoc">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.18815331" vertical-offset="0" max-vertical-offset="1926">
-                  <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="queue_ding.rb" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="queue_ding.rb" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../queue_ding/lib/queue_ding/queue_ding.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1692">
+                <state vertical-scroll-proportion="0.2508711" vertical-offset="0" max-vertical-offset="1692">
                   <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/../queue_ding/Gemfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-                  <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -126,7 +93,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../queue_ding" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -134,8 +101,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/lib/k-tree.rb" />
-        <option value="$PROJECT_DIR$/lib/k-tree/k-tree.rb" />
         <option value="$PROJECT_DIR$/README.rdoc" />
+        <option value="$PROJECT_DIR$/lib/k-tree/k-tree.rb" />
       </list>
     </option>
   </component>
@@ -458,6 +425,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../queue_ding/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1926">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../queue_ding/lib/queue_ding.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
@@ -468,7 +451,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../queue_ding/lib/queue_ding/queue_ding.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1692">
+        <state vertical-scroll-proportion="0.2508711" vertical-offset="0" max-vertical-offset="1692">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
           <folding />
         </state>
@@ -476,24 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/k-tree/k-tree.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3554007" vertical-offset="0" max-vertical-offset="861">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../queue_ding/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18815331" vertical-offset="0" max-vertical-offset="1926">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20594966" vertical-offset="0" max-vertical-offset="874">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
