@@ -14,6 +14,7 @@ and are therefore enumerable.
 
 == Gem Version
 {<img src="https://badge.fury.io/rb/k-tree.png" alt="Gem Version" />}[http://badge.fury.io/rb/k-tree]
+{<img src="https://travis-ci.org/flajann2/k-tree.svg?branch=master" alt="Travis" />}[https://travis-ci.org/flajann2/k-tree]
 
 == Usage
 
