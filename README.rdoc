@@ -1,5 +1,7 @@
 = K-Tree
 
+{<img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/flajann2/k-tree">}[https://gitter.im/flajann2/k-tree?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge]
+
 K-Tree is a data structure that generalizes the notion of Quadtrees and
 Octrees. The nodes subdivides the n-dimentional space into equal subsections
 of 2^n k-tants (quadrants for 2-dimensional spaces, octants for 3-dimensional)
