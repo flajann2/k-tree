@@ -35,7 +35,7 @@ Jeweler::Tasks.new do |gem|
   and immediately after the creation of the children, will check to see if there's
   enough variance among the children to keep them. If not, they are pruned immediately.
   }
-  gem.email = "lordalveric@yahoo.com"
+  gem.email = "fred.mitchell@gmx.de"
   gem.authors = ["Fred Mitchell"]
   gem.required_ruby_version = '>= 2.0'
   gem.version = s_version
