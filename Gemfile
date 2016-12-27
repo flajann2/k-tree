@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
-gem 'semver', '~> 1'
+gem 'semver2', '~> 3'
 gem "json", "~> 2.0", ">= 2.0.2"
 
 group :development do
